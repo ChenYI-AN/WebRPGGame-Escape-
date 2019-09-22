@@ -1,7 +1,7 @@
 # 網頁RPG學習遊戲
 
   以遊戲方式進行課程學習與測驗，檢驗學生對程式觀念的理解狀況<br>
-  主題:Java Exception Handling<br>
+  學習主題:Java Exception Handling<br>
   題目類型: 選擇題、填充題、是非題<br>
 
 
