@@ -1,0 +1,184 @@
+body {
+	background-image: url("./resource/backGround.png");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  background-size:  62% 99%;
+}
+table, th, td {
+  width: 130px;
+  height: 40px;
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+#chracter {
+	position: absolute;
+	width: 2.5%;
+	height: 8%;
+}
+#chest {
+	position: absolute;
+	width: 1.8%;
+	height: 8%;
+}
+#wall {
+	position: absolute;
+	width: 2%;
+	height: 9%;
+}
+#floordoor {
+  position: absolute;
+  width: 2%;
+  display: none;
+}
+#statue {
+  position: absolute;
+  width: 2%;
+  height: 12%;
+  display: none;
+}
+#ladder {
+  position: absolute;
+  width: 2%;
+  display: none;
+}
+#box {
+  position: absolute;
+  width: 1.5%;
+  display: none;
+}
+
+#item {
+  position: absolute;
+  width: 10%;
+  top: 40%;
+  left: 45%;
+  opacity: 0;
+}
+#item1 {
+  width: 35px;
+  display: none;
+}
+#item2 {
+  width: 35px;
+  display: none;
+}
+#dialog {
+  border: 2px solid #0099cc;
+  background-color: #99e6ff;
+  padding: 10px;
+  opacity: 0;
+  border-radius: 15px;
+	font-size: 30px;
+	position: absolute;
+	top: 70%;
+	left: 22%;
+	width: 55%;
+	height: 15%;
+}
+#question {
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 30%;
+}
+#dropQuestion {
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 30%;
+}
+#interface {
+  background-color: #808080;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 20%;
+  height: 100%;
+}
+#Bag {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 90%;
+}
+#score {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 55px;
+}
+#explain {
+  position:absolute;
+  border-radius: 5px;
+  height:5%;
+  width:60%;
+  bottom:17%;
+  right:18%;
+}
+#prompt {
+  position:absolute;
+  height:5%;
+  width:60%;
+  bottom:9%;
+  right:18%;
+}
+#save {
+  position:absolute;
+  height:5%;
+  width:60%;
+  bottom:1%;
+  right:18%;
+}
+#help {
+  border: 2px solid #0099cc;
+  background-color: #4488bb;
+  padding: 10px;
+  position: absolute;
+  display: none;
+  top: 10%;
+  left: 50%;
+  width: 40%;
+}
+#countdown {
+	font-size: 50px;
+	position: absolute;
+	top: 15%;
+	left: 23%;
+}
+.drag {
+  width: 10%;
+  display: none;
+}
+.drag .dragtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: -20%;
+    margin-top: -1%;
+}
+.drag:hover .dragtext {
+    visibility: visible;
+}
+.drop {
+  width: 40%;
+  padding: 2%;
+  border:1px dashed black;
+  margin-right: 2%;
+}
