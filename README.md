@@ -16,6 +16,8 @@
   遊戲中的問題可以用對應的數字鍵或英文鍵回答，也能用滑鼠點選，<br>
   遊戲中遇到困難可以點選題示或是幫助。<br>
 
+遊戲畫面<br>
+![image](https://i.imgur.com/aR9HWGS.png)<br>
 
 -程式組成:<br>
   RPG.php                 RPG主程式<br>
